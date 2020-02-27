@@ -23,11 +23,24 @@
 /* General */
 
 * {
-    font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto Slab', serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bree Serif', serif;
+#index-banner h1,
+#index-banner h5 {
+  margin: 0;
+}
+
+#index-banner h1 {
+  font-family: 'Bree Serif', serif;
+}
+
+#index-banner h5 {
+  padding-top: 15px;
+}
+
+#index-banner {
+  padding: 50px 0;
 }
 
 /* Social buttons */
