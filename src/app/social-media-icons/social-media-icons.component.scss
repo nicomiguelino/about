@@ -1,3 +1,6 @@
+$candy-apple-red: #aa0505;
+$dark-goldenrod: #b97d10;
+
 .social-buttons {
   display: flex;
   flex-wrap: wrap;
@@ -6,6 +9,7 @@
 }
 .social-buttons__button {
   margin: 10px 5px 0;
+  color: #fff;
 }
 
 .social-button {
@@ -26,7 +30,7 @@
   width: calc(100% - 2px);
   height: calc(100% - 2px);
   border-radius: 100%;
-  background: #fff;
+  background: $dark-goldenrod;
   text-align: center;
 }
 .social-button i,
@@ -54,58 +58,16 @@
   transition: 0.3s;
 }
 .social-button:focus, .social-button:hover {
-  color: #fff;
+  color: $dark-goldenrod;
 }
 .social-button:focus::after, .social-button:hover::after {
   width: 100%;
   height: 100%;
   margin-left: -50%;
 }
-.social-button--mail {
-  color: #0072c6;
-}
-.social-button--mail::after {
-  background: #0072c6;
-}
-.social-button--facebook {
-  color: #3b5999;
-}
-.social-button--facebook::after {
-  background: #3b5999;
-}
-.social-button--linkedin {
-  color: #0077b5;
-}
-.social-button--linkedin::after {
-  background: #0077b5;
-}
-.social-button--github {
-  color: #6e5494;
-}
+
+.social-button--facebook::after,
+.social-button--linkedin::after,
 .social-button--github::after {
-  background: #6e5494;
-}
-.social-button--steam {
-  color: #7da10e;
-}
-.social-button--steam::after {
-  background: #7da10e;
-}
-.social-button--twitter {
-  color: #55acee;
-}
-.social-button--twitter::after {
-  background: #55acee;
-}
-.social-button--instagram {
-  color: #e4405f;
-}
-.social-button--instagram::after {
-  background: #e4405f;
-}
-.social-button--npmjs {
-  color: #c12127;
-}
-.social-button--npmjs::after {
-  background: #c12127;
+  background: #fff;
 }

@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./social-media-icons.component.scss']
 })
 export class SocialMediaIconsComponent implements OnInit {
-  urls: object = {
+  urls = {
     linkedin: "https://www.linkedin.com/in/nico-miguelino-640565122/",
     github: "https://github.com/nicomiguelino",
-    facebook: "https://www.facebook.com/nmiguelino",
+    facebook: "https://www.facebook.com/nmiguelino"
   };
 
   constructor() { }

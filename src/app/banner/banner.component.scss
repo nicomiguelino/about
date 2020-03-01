@@ -1,16 +1,18 @@
-#index-banner h1,
-#index-banner h5 {
-  margin: 0;
-}
-
-#index-banner h1 {
-  font-family: 'Bree Serif', serif;
-}
-
-#index-banner h5 {
-  padding-top: 15px;
-}
+$blood: #6a0c0b;
 
 #index-banner {
+  background-color: $blood;
   padding: 50px 0;
+
+  h1, h5 {
+    margin: 0;
+  }
+
+  h1 {
+    font-family: 'Bree Serif', serif;
+  }
+
+  h5 {
+    padding-top: 15px;
+  }
 }
