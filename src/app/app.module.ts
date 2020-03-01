@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SocialMediaIconsComponent } from './social-media-icons/social-media-icons.component';
+import { BannerComponent } from './banner/banner.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SocialMediaIconsComponent,
+    BannerComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
