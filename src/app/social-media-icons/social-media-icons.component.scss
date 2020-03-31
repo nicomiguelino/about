@@ -1,5 +1,4 @@
-$candy-apple-red: #aa0505;
-$dark-goldenrod: #b97d10;
+$brick-red: #b72b3d;
 
 .social-buttons {
   display: flex;
@@ -30,7 +29,7 @@ $dark-goldenrod: #b97d10;
   width: calc(100% - 2px);
   height: calc(100% - 2px);
   border-radius: 100%;
-  background: $dark-goldenrod;
+  background: $brick-red;
   text-align: center;
 }
 .social-button i,
@@ -58,7 +57,7 @@ $dark-goldenrod: #b97d10;
   transition: 0.3s;
 }
 .social-button:focus, .social-button:hover {
-  color: $dark-goldenrod;
+  color: $brick-red;
 }
 .social-button:focus::after, .social-button:hover::after {
   width: 100%;

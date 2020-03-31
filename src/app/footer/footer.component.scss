@@ -1,10 +1,19 @@
-$dark-goldenrod: #b97d10;
-$blood: #6a0c0b;
+$brick-red: #b72b3d;
+$teal-variant: #4a9590;
 
 .page-footer {
-  background-color: $blood;
+  background-color: $teal-variant;
+  padding-left: 0;
 }
 
 .footer-copyright {
-  background-color: $dark-goldenrod;
+  background-color: $brick-red;
+
+  a {
+    color: inherit;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
