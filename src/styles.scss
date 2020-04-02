@@ -1,17 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
-$light-pink: #e98195;
+$light-yellow: #fff2a8;
+$brick-red: #d75364;
+
+@mixin default-highlight {
+  background: $light-yellow;
+  color: #000000;
+}
 
 * {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Merriweather', serif;
 
   &::selection {
-    background: $light-pink;
+    @include default-highlight;
   }
 
   &::-moz-selection {
-    background: $light-pink;
+    @include default-highlight;
   }
 }
 
@@ -19,19 +25,30 @@ html {
   scroll-behavior: smooth;
 }
 
-.icon-block {
-  padding: 0 15px;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lora', serif;
+}
 
-  .material-icons {
-    font-size: inherit;
-  }
+p {
+  padding-top: 1em;
+  line-height: 2;
+}
+
+.content-group {
+  background-color: $brick-red;
+  color: #ffffff;
 }
 
 #intro-section {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
+  padding: 3em 0em 3em 0em;
 
   .section {
     margin: auto;
+
+    .row {
+      margin-bottom: 0px;
+    }
   }
 }
