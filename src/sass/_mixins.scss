@@ -1,0 +1,6 @@
+@import 'variables';
+
+@mixin default-highlight {
+  background: $light-yellow;
+  color: #000000;
+}

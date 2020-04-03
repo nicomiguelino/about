@@ -1,13 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
-
-$light-yellow: #fff2a8;
-$brick-red: #d75364;
-
-@mixin default-highlight {
-  background: $light-yellow;
-  color: #000000;
-}
+@import 'variables';
+@import 'fonts';
+@import 'mixins';
 
 * {
   font-family: 'Merriweather', serif;
@@ -36,7 +29,7 @@ p {
 }
 
 .content-group {
-  background-color: $brick-red;
+  background-color: $rose-pink;
   color: #ffffff;
   border-top: 2px solid #ffffff;
 }

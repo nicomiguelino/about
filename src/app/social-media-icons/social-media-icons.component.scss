@@ -1,4 +1,4 @@
-$brick-red: #b72b3d;
+@import 'variables';
 
 .social-buttons {
   display: flex;
@@ -29,7 +29,7 @@ $brick-red: #b72b3d;
   width: calc(100% - 2px);
   height: calc(100% - 2px);
   border-radius: 100%;
-  background: $brick-red;
+  background: $rose-pink;
   text-align: center;
 }
 .social-button i,
@@ -57,7 +57,7 @@ $brick-red: #b72b3d;
   transition: 0.3s;
 }
 .social-button:focus, .social-button:hover {
-  color: $brick-red;
+  color: $rose-pink;
 }
 .social-button:focus::after, .social-button:hover::after {
   width: 100%;
