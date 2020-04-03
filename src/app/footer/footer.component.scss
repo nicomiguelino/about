@@ -1,4 +1,4 @@
-$teal-variant: #4a9590;
+@import 'variables';
 
 .page-footer {
   background-color: $teal-variant;
@@ -7,7 +7,7 @@ $teal-variant: #4a9590;
 }
 
 .footer-copyright {
-  background-color: rgba(184, 134, 11, 0.95);
+  background-color: $dark-goldenrod;
   border-top: 2px solid #ffffff;
   color: rgba(255, 255, 255, 1);
 
