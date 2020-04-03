@@ -27,6 +27,7 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lora', serif;
+  font-weight: 700;
 }
 
 p {
@@ -37,6 +38,7 @@ p {
 .content-group {
   background-color: $brick-red;
   color: #ffffff;
+  border-top: 2px solid #ffffff;
 }
 
 #intro-section {

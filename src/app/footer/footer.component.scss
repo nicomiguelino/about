@@ -1,13 +1,15 @@
-$brick-red: #b72b3d;
 $teal-variant: #4a9590;
 
 .page-footer {
   background-color: $teal-variant;
   padding-left: 0;
+  border-top: 2px solid #ffffff;
 }
 
 .footer-copyright {
-  background-color: $brick-red;
+  background-color: rgba(184, 134, 11, 0.95);
+  border-top: 2px solid #ffffff;
+  color: rgba(255, 255, 255, 1);
 
   a {
     color: inherit;
